@@ -31,7 +31,7 @@
             <!--Alterntive way to label an input (less common)-->
             <label>
                 Enter a Number:
-                <input type="number" placeholder="enter a number" name="number">
+                <input type="number" placeholder="enter a number" name="number" min="1" max="1000">
             </label>
         </p>
         <!--this button does not ubmit the form b/c of the "type" attribute-->
@@ -39,9 +39,8 @@
         <!--    t   his button submits the form-->
         <button>Submit!!</button>
         <!--So does this one: -->
-        <input type="submit" value="Click Me!!" <button>Submit</button>
+        <button type="submit" value="Click Me!!"> Submit</button>
     </form>
-    <!--Outside of a form, no default behavior-->
     <button>Not Inside Form</button>
     <h2>Hijacking Searches</h2>
     <h3>Search Reddit</h3>
@@ -79,7 +78,28 @@
                 <option value="veg">Veggie</option>
                 <option value="steak">Steak</option>
             </select>
+        </p>
+        <p>
+            <label for="cheese">Amount of Cheese</label>
+            <input type="range" name="Cheese_level" id="cheese" value="75" min="1" max="100">
+        </p>
+        <p>
+            <label for="request">Any Special Request</label>
+            <br>
+            <textarea name="Requests?" id="request" cols="30" rows="10" placeholder="Type Something Here"></textarea>
+        </p>
+        <button>Submit</button>
+    </form>
+    <h2>Validations Demo</h2>
+    <form action="/dummy">
+        <label for="first">Enter First name</label>
+        <input type="text" name="first" id="first" required>
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" minlength="5" maxlength="20" required>
 
+        <p>
+            <!--<input type="email"> -->
+            <input type="url" name="" id="">
         </p>
         <button>Submit</button>
     </form>
