@@ -1,0 +1,25 @@
+body{
+    color: purple;
+    margin: 0;
+    
+}
+h1{
+    color: coral;
+    background-color: gray;
+    width: 200px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: blue;
+    padding: 75px;
+    margin: 0;
+   
+}
+section{
+    color: aqua;
+}
+form{
+    color: greenyellow;
+}
+button{
+     padding: 100px 200px 35px 13px;
+}
