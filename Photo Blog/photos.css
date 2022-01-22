@@ -1,0 +1,18 @@
+img{
+    width: 25%;
+    margin: calc(25%/8);
+    border: solid black;
+}
+nav{
+    font-family: 'Noto Serif', serif;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 25%;
+    margin-left: calc(25%/8);
+    padding: 1.2em 0;
+}
+div{
+    display: flex;
+    width: 100%;
+}
